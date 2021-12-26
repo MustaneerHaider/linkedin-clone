@@ -7,7 +7,7 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: 'AIzaSyCQKYOLrgy7uvesht_OD8k5AEn1Lma4B0Y',
+	apiKey: process.env.API_KEY,
 	authDomain: 'linkedin-clone-bafb3.firebaseapp.com',
 	projectId: 'linkedin-clone-bafb3',
 	storageBucket: 'linkedin-clone-bafb3.appspot.com',
