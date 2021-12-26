@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.inputIcon {
+		@apply flex-grow flex items-center justify-center space-x-1 p-2 rounded-lg hover:bg-gray-100
+    text-gray-500 cursor-pointer;
+	}
+}
